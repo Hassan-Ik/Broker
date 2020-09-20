@@ -1,0 +1,1387 @@
+
+body{
+			font-family: Arimo;
+			margin: 0;
+		}
+.container{
+	margin: auto;
+	width: 100%;
+	height: auto;
+
+}
+
+p{
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+}
+		.container1{
+			float: left;
+			width: 100%;
+			height: 35em;
+			background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url('Images/Back/W4.jpg');
+			background-position: center;
+			background-size: cover;
+			background-blend-mode: darken;
+			opacity: 1;
+		}
+header{
+	width: 100%;
+	height: auto;
+	background: #fdfdfd;
+	float: left;
+	box-shadow: 1px 1px 5px black;
+	}
+	.us{
+		width: 100%;
+		height: 20pt;
+		padding-top: 2pt;
+		text-align: center;
+		display: block;
+		background: #211C23;
+
+}
+
+.us strong{
+	color: white;
+}
+.us a{	
+	font-size:16px;
+	color: #128E57;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-right: .5em;
+	}
+	.us a:hover{
+		opacity: .8;
+	}
+	.position{
+		
+	}
+
+	.position .header-logo {
+		float: left;
+		width: 20%;
+		box-shadow: 1px 1px 5px black;
+	}
+	.position .header-logo h1{
+		text-align: center;
+		font-size: 30px;
+		text-shadow: 1px 1px 2px black;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	.position .header-logo a{
+		text-decoration: none;
+		color:black;
+		
+	}
+	/* Add a black background color to the top navigation */
+.topnav {
+  background: initial;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  top: 14pt;
+  left: 40pt;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 9pt 12pt;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+   	opacity: 1;
+ 	color:#00a25f;
+}
+/*Section Parts Starts here*/
+.image{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+ .image-inside{
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	opacity: .8;
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: white;
+}
+.image-inside h1{
+	text-align: center;
+	font-size:36pt; 
+	margin-left:80pt;
+	font-family: 'Oswald', sans-serif;
+}
+.image-inside h1:after{
+	content: '';
+	display: block;
+	width: 100px;
+	background-color: #00a25f;
+	height: 5pt;
+	position: relative;
+	left: 40pt;
+	}
+.image-inside p{
+	text-align: center;
+	font-size:20px; 
+	font-family: 'Oswald', sans-serif;
+}
+ .image-inside .btn{
+	float: left;
+	width: 120pt;
+	height: 37pt;
+	border-radius: 100px;
+	margin-left: 180pt;
+	margin-top: 20pt;
+	background-color: #00a25f;
+}
+	.btn a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+	margin-top: 13pt;
+	margin-left: 24pt;
+}
+	.btn:hover{
+	background-color:black;
+	content: "Post a Job today";
+}
+/* Image Part Of the Home Page Ends Here*/
+.section{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+.review{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.review h1{
+	width: 100%;
+	font-family: Arimo;
+	text-align: center;
+	position: relative;
+	color:black;
+}
+.review h1:after{
+	content: '';
+	width: 170pt;
+	height:4pt;
+	background: #128D56;
+	position:absolute;
+	top: 30pt;
+	left: 41%;
+}
+.review .rate{
+	float: left;
+	width: 100%;
+	height: 150pt;
+	
+}
+.review .rate .trustpilot{
+	float: left;
+	width: 25%;
+	height: 160pt;
+}
+.trustpilot img{
+	position: relative;
+	top: 20pt;
+	left: 20pt;
+	width: 160pt;
+	height: 40pt;
+}
+.trustpilot h2{
+	float: left;	
+	position: relative;
+	left: 140pt;
+	top: 20pt;
+	font-family: oswald; 
+}
+.trustpilot a{
+	text-decoration: none;
+	color:black;
+}
+.rate-img {
+	width: 75%;
+	height: 160pt;
+	float: left;
+}
+
+.rate-img img{
+	width: 140pt;
+	height: 130pt;
+	margin-left: 160pt;
+}
+.rate-img .mum{
+	position: relative;
+	left: 100px;
+}
+/*Review Part of Website Ends Here*/
+/*Hire Part Starts Here */
+.hire{
+	height: 410pt;
+	width: 100%;
+	float: left;
+	background: #a4e4a4;
+}
+.hire h1{
+	position: relative;
+	font-family:Arimo;
+	text-align: center;
+	
+
+}
+.hire h1:after{
+	position: absolute;
+	top: 31pt;
+	right: 40%;
+	content: '';
+	width: 220pt;
+	height: 5px;
+	background: green;
+}
+.hire-1{
+	height: 230pt;
+	position: relative;
+	top: 40px;
+	left: 0;
+	text-align: center;
+}
+.post,.rev1{
+	width: 203pt;
+	height: 230pt;
+	float: left;
+	background: white;
+	position: relative;
+	left: 16%;
+	top: 20pt;
+	box-shadow: 2px 2px 5px gray;
+} 
+.post .post-img{
+	width: 202pt;
+	height: 120pt;
+}
+.trade{
+	width: 203pt;
+	height: 230pt;
+	float: left;
+	background: white;
+	box-shadow: 2px 2px 5px gray;
+	position: relative;
+	left: 17%;
+}
+.trade img{
+	width: 202pt;
+	height: 120pt;
+}
+.rev1{
+	width: 202pt;
+	height: 300px;
+	float: left;
+	background: white;
+	position: relative;
+	left : 18%;
+	top: 20px;
+}
+
+.rev1 img{
+	width: 202pt;
+	height: 120pt;
+}
+.hire-1 h2 a{
+	text-decoration: none;
+	color:black;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.hire-1 a:hover{
+	text-decoration: underline;
+}
+.hire-1 p{
+	font-family: initial;
+	font-size:18px;
+	opacity: .8 
+}
+.hire button{
+	float: left;
+	height: 40pt;
+	width: 110pt;
+	font-size: 17px;
+	text-align: center;
+	background:#078B55; 
+	color: white;
+	border-radius: 10px;
+	border: none;
+	position: absolute;
+	top: 1060pt;
+	left: 41%;
+	z-index: 0;
+}
+.hire button a{
+	text-decoration: none;
+	color:inherit;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.hire button:hover{
+	outline: none;
+	background: black;
+}
+/*Hire Part OF Css Ends here */
+/*Jobs Category Part of Css Starts Here*/
+.our-job{
+	width: 100%;
+	float: left;
+	height: 520pt;
+	background: url(Images/Jobs1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.our-job h1{
+	text-align: center;
+	font-family: 'Arimo',sans-serif;
+	position: relative;
+}
+.our-job h1:after{
+	content: '';
+	width: 70pt;
+	height: 4pt;
+	background:#078B55;
+	position: absolute;
+	float: left;
+	right: 46%;
+	top: 30pt;
+}
+.our-job table{
+	margin-top: 45pt;
+	margin-left: 14%;
+	width: 70%;
+	text-align: center;
+	
+}
+.our-job  td{
+	padding-top: 12pt;
+	font-size: 18px;
+	font-family:'Arimo',sans-serif;
+	font-weight: 700; 
+}
+.our-job td a{
+	text-decoration:none;
+	color:black; 
+}
+.our-job td a:hover{
+	color:  #078B55;
+}
+
+/*Our Jobs Part OF CSS Ends Here */
+.works{
+	height: auto;
+	float: left;
+	width: 100%; 
+	background: white;
+}
+.works h1{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	font-family: Arimo,sans-serif;
+}
+.works h1:before{
+	content: '';
+	width: 160pt;
+	height: 4pt;
+	background:#078B55;
+	position: absolute;
+	top: 100%;
+	left: 42%;
+}
+.works ul{
+	float: left;
+	width: auto;
+}
+.works li{
+	list-style-type: none;
+	float: left;
+	padding-left: 110pt;
+}
+.works ul li h2{
+	position: relative;
+	bottom: 16pt;
+	float: left;
+	font-size: 40pt;
+	font-weight: 700;
+	color: green;
+	padding-right: 20pt;
+}
+.works ul li h3{
+
+	float: left;
+	font-size: 16pt;
+
+}
+.works ul li p{
+	font-size: 16px;
+}
+/* Satrts Parts starts Here */
+.starts{
+	width: 100%;
+	height: 70pt;
+	float: left;
+}
+.starts h2{
+	float: left;
+	margin-top: 2%;
+	margin-left:28%;
+}
+ .btn1{
+	margin-top: 12pt;
+	margin-left: 46pt;
+	width: 120pt;
+	height: 38pt;
+	background:#078B55;
+	float: left; 
+	border-radius: 100pt;
+	text-align: center;
+}
+ .btn1 a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+	margin-top: 13pt;
+	margin-left: 22pt;
+}
+ .btn1:hover{
+	background: black;
+}
+/* Starts Parts OF The Css ends Here */
+/* Apply as Trademan Parts of the Home Page Starts Here */ 
+
+.Apply{
+	float: left;
+	width: 100%;
+	height: 210pt;
+	background:#A4E4A4; 
+	/*background: url(Images/Back/tools.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 400px;
+	*/
+}
+
+.Apply h1{
+	text-align: center;
+	font-family: Oswald;
+}
+.Apply p{
+	position: relative;
+	left: 36%;
+	text-align: center;
+	width: 380px;
+	font-size: 15pt;
+}
+.Apply .btn1{
+	position: relative;
+	left: 40%;
+}
+/* Apply Part Ends Here */
+/* Footer of the Site Starts Here */
+.site-footer{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #276727;
+	text-align: center;
+	
+}
+.footer-inside{
+	width: 70%;
+	float: left;
+	padding-left: 15%;
+	padding-right: 15%;
+	background: #276727;
+	text-align: center;
+}
+.tab{
+	float: left;
+	border-bottom: 2px solid black;
+}
+.column{
+	float: left;
+}
+ul{
+	width: 130pt;
+	list-style-type: none;
+	float: left;
+}
+li{
+	font-size: 14px;
+	padding: 8pt;
+}
+li a{
+	text-decoration: none;
+	color:white;
+}
+li a:hover{
+	text-decoration: underline;
+}
+.title{
+	font-size: 15pt;
+	font-family: Arimo;
+	color:#9fd09f;
+}
+/* Tab Part of the Site Ends Here */
+/* Covered Trades Part Satrts Here */
+.site-trades{
+	
+	float: left;
+	border-bottom:2px solid black; 
+}
+.site-trades h2{
+	font-family: Arimo;
+	color:#9fd09f;
+}
+.site-trades table{
+	font-family: Arimo;
+	margin-top: 10pt;
+}
+.site-trades td{
+	font-size: 10pt;
+	padding: 7pt;
+	color: white;
+}
+.site-trades td a{
+	text-decoration: none;
+	color: white;
+}
+.site-trades a:hover{
+	text-decoration: underline;
+}
+/* Site Trades Part ends here*/
+/* Bottom footer Starts Here */
+.footer-bottom{
+	float: left;
+	height:52pt;
+	width: 100%;
+	background: #0c310c;
+}
+.footer-bottom p{
+	color:white;
+	font-size: 10pt;
+}
+.footer-bottom a{
+	color: white;
+}
+.up{
+	margin-right: 8%;
+	float: right;
+	width: 30pt;
+	height: 25pt;
+	background:#0c310c;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%; 
+	padding-top: 0px;
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.up a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/* CSSS PART OF POST A JOB STARTS HERE */
+.post-a-job
+{
+
+	float: left;
+	width: 100%;
+	height: 400pt;
+	background:linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)), url('Images/Back/Job.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+}
+.post-a-job-inside{
+	position: relative;
+	top: 145px;
+	height: 200px;
+	float: left;
+	opacity: .8;
+	width: 100%;
+	background:white;
+}
+.post-a-job h1{
+	text-align: center;
+	font-family: Arimo;
+	position: relative;
+}
+.post-a-job h1:after{
+	content: '';
+	height: 5pt;
+	width: 60pt;
+	background:#11925C;
+	position: absolute;
+	top: 35px;
+	right: 640px;
+}
+.post-a-job p{
+	font-size: 20px;
+	font-family: oswald;
+	text-align: center;
+}
+
+.post-a-job-form{
+	width:50%;
+	height: auto;
+	float: left;
+	margin-top: 40px;
+	margin-left: 250px;
+	margin-right:250px;
+	margin-bottom: 40px; 
+	padding:50px;
+	background: white;
+	box-shadow: 2px 2px 5px gray;
+	border-radius: 5px;
+}
+.post-a-job-form label{
+	margin-right: 50px;
+	margin-top: 40px;
+	float: left;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: Oswald;
+}
+.post-a-job-form .select{
+	margin-top: 10px;
+	height: 50px;
+	width: 500px;
+	font-size: 18px;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+.post-a-job-form textarea{
+	margin-top: 20px;
+	height: 200px;
+	width: 500px;
+	font-size: 18px;
+	border: 2px solid gray;
+	border-radius: 5px;
+	float: left;
+}
+.post-a-job-form p{
+	float: left;
+}
+.post-a-job-form input{
+	float: left;
+	height: 50px;
+	width: 500px;
+	font-size: 18px;
+	border: 2px solid gray;
+	border-radius: 5px;	
+	margin-top: 20px;
+}
+.post-a-job-form h2{
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.post-a-job-form fieldset{
+	float: left;
+	margin-top: 50px;
+}
+.post-a-job-form legend{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Arimo;
+}
+.post-a-job-form .checkbox{
+	float: left;
+	height: 20px;
+	width: 25px;
+	border: 2px solid black;
+	background: red;
+}
+.post-a-job-form .check{
+	margin-top: 20px;
+	width: 80%;
+	height: 150px;
+	float: left;
+}
+.post-a-job-form .check label{
+	position: relative;
+	bottom:30px;
+
+}
+.post-a-job-form .submit-btn{
+	width: 670px;
+	background: #14925B;
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+.post-a-job-form .submit-btn:hover{
+	background: black;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS OF LOG_IN PAge Satrts Here */
+.form-space{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 288px;
+    margin-right: 292px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-top: 40px;
+	width: 55.5%;
+	height: 500px;
+	float: left;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+
+.form-space .log-in h1{
+	text-align: justify;
+	font-family: Arimo;
+}
+.form-space .log-in input{
+	margin-top: 10px;
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	border: 2px solid gray;
+	outline: none;
+	font-size: 16px;
+	text-align: justify;
+}
+.form-space .log-in .submit{
+	text-align: center;
+	background: #0A8B56;
+	color: white;
+	border: none;
+}
+.form-space .log-in .submit:hover{
+background-color: black;
+}
+.form-space .log-in a{
+	text-decoration: none;
+	font-size: 18px;
+}
+.form-space .log-in a:hover{
+	text-decoration: underline;
+}
+.form-space .new-to-broker{
+	margin-top: 50px;
+	font-family: Arimo;
+}
+.form-space .new-to-broker p{
+	text-align: justify;
+	font-size: 16px;
+	opacity: .9;
+}
+
+.open-button {
+  background-color: initial;
+  color: purple;
+  font-size: 26px;
+  border:none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: relative;
+  right: 0px;
+  
+}
+.open-button:hover{
+	outline: none;
+	text-decoration: underline;
+}
+.open-button:focus{
+	outline: none;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+ position:fixed;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.5);
+      z-index:5;
+      width:100%;
+      height:100%;
+      display:none;
+}
+
+/* Add styles to the form container */
+.form-container {
+	float: left;
+ 	width: 500px;
+ 	height: 470px;
+ 	position: fixed;
+ 	left: 32%;
+ 	top: 15%;
+  	background-color: white;
+  	border-radius: 5px;
+  	box-shadow: 1px 1px 5px black;
+}
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+	color: white;
+  float: left;
+  width: 480px;
+  padding-right: 20px;
+  height: 28px;
+  border-bottom:2px solid gray;
+  font-size: 24px;
+  text-align: right;
+  background: #1C8759;
+}
+.form-container h2{
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+/* Full-width input fields */
+.form-container label{
+	width: 170px;
+	padding-left: 30px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	float: left;
+	font-size: 16px;
+	font-weight: 700;
+}
+.form-container input[type=text], .form-container input[type=password] ,.form-container input[type=number] {
+ 	float: left;
+  	width: 230px;
+  	height: 40px;
+  	margin-bottom: 10px;
+  	border: none;
+  	border-radius: 5px;
+  	background: #f1f1f1;
+}
+.form-container table{
+	width:400px;
+	height: 100px;
+	font-weight: 700; 
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus ,.form-container input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  width: 22%;
+  position: relative;
+  left: 40%;
+  opacity: 0.8;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+/*The Login Webpage Ends HEre */
+
+
+.advice{
+	width: 100%;
+	height: auto;
+	float: left;
+	font-family: Arimo;
+	position: relative;
+}
+.advice-image{
+	width: 100%;
+	height: 400pt;
+	float: left;
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(Images/Back/Advice1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.advice-image-inside{
+	width: 100%;
+	height: 200pt;
+	background:white;
+	position: relative;
+	top: 85pt;
+	opacity: 1;
+
+}
+.advice-image h1{
+	text-align: center;
+	position: relative;
+	top: 20pt;
+}
+.advice-image-inside h1:after{
+	content: '';
+	height: 4pt;
+	width: 150pt;
+	background:#11925C;
+	position: absolute;
+	top: 35px;
+	right: 580px;
+}
+.advice-image p{
+	text-align: center;
+	position: relative;
+	top: 30pt;
+}
+
+.advice form{
+	float: left;
+	width: 100%;
+	height: 60pt;
+	text-align: center;
+	background:#fdfdfd;
+	position: relative;
+	top: 45pt;
+	box-shadow: 1px 1px 5px gray;
+}
+.advice input{
+	width: 500pt;
+	height: 40pt;
+	position: relative;
+	top: 11pt;
+	font-size: 18px;
+	border: none;
+	background: #efefef;
+}
+.advice .Adv{
+	width: 100pt;
+	height: 40pt;
+	background:#11925C;
+	color:white;
+}
+.advice .Adv:hover{
+	background:black;
+}
+/* Advice-image-inside part ends here */
+
+/*Advice-topics starts here*/
+
+.advice-topics {
+	width: 80%;
+	height: 1000pt;
+	float: left;
+	margin-top: 25pt;
+	margin-left: 80pt;
+	margin-bottom: 25pt;
+	background:white;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px gray;
+	padding-left:20pt;
+	padding-right: 20pt; 
+}
+.advice-topics h1{
+	text-align: center;
+	position: relative;
+}
+.advice-topics h1:after{
+	content: '';
+	height: 5pt;
+	width: 100pt;
+	background:#11925C;
+	position: absolute;
+	top: 35px;
+	right: 480px;	
+}
+
+.advice-topics-featured{
+	float: left;
+	width: 250pt;
+	height: 200pt;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px gray;
+	margin-left: 15pt;
+	margin-bottom: 15pt;
+	margin-top: 15pt;
+}
+.advice-topics-featured img{
+	width: 250pt;
+	height:160pt;
+	float: left;
+}
+.advice-topics-featured a{
+	color:black;
+}
+.advice-topics-featured a:hover{
+	color:green;
+}
+.advice-topics-featured h3{
+	position: relative;
+	top: 12pt;
+}
+.advice-topics-on-hiring{
+	float: left;
+	width: 96.4%;
+	height: 180pt;
+	position: relative;
+	left: 15pt;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px gray;
+	background: url(Images/Trade3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.advice-topics-on-hiring div{
+	float: left;
+	height: 100%;
+	width: 40%;
+	opacity: .9;
+	text-align: center;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+}
+.advice-topics-on-hiring h3{
+	text-align: center;
+}
+
+
+
+
+.about{
+	width: 100%;
+	height: auto;
+	float: left;
+
+}
+.about-image{
+	width: 100%;
+	height:500px;
+	float: left;
+	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(Images/Back/W3.jpg);
+	background-size: contain;
+}
+.about-image-inside{
+	width: 100%;
+	height: 155pt;
+	background: white;
+	position: relative;
+	top: 95pt;
+	opacity: .9;
+}
+.about-image-inside h1,h5,p{
+	text-align: center;
+	position: relative;
+}
+.about-image-inside h5{
+	box-shadow: 1px 1px 2px gray;
+	/*border-bottom: 2pt solid green;
+	border-top: 2pt solid green;*/
+}
+.about-image-inside h1:after{
+	content: '';
+	width: 90pt;
+	height: 4pt;
+	background: green;
+	position: absolute;
+	top:35px;
+	right: 460pt;
+}
+.about-image-inside .btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border:none;
+    margin-left: 440pt;
+    background-color: #00a25f;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.about-image-inside .btn:hover{
+	background: black;
+	outline: none;
+}
+/*About Image inside partEnds Here */
+/* */
+.about-info{
+	text-align: center;
+	width: 65%;
+	height: auto;
+	float: left;
+	background: white;
+	margin-left: 150pt;
+	margin-top: 20pt;
+	margin-bottom: 20pt;
+	padding: 20pt;
+	border-radius: 5pt;
+}
+
+.about-post-a-job{
+	float: left;
+	width: 100%;
+	height: 500pt;
+	background: url('Images/House1.jpg');
+	background-size: 100% 100%;
+	color:black;
+}
+.about-post-a-job-inside{
+	width: 50%;
+	height: 500pt;
+	background: white;
+	float: left;
+	margin-left: 260pt;
+	opacity: .9;
+}
+.about-post-a-job .btn{
+ width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border:none;
+    margin-left: 180pt;
+    background-color: #00a25f;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;	
+    margin-bottom: 300pt;
+}
+.about-post-a-job h1{
+	text-align: center;
+}
+.about-post-a-job p,a{
+	font-weight: bold;
+	
+	
+}
+.about-post-a-job a{
+	color: black;
+	text-decoration: underline;
+}
+
+
+/* CSS PArt of About Brokers ends here */
+
+
+
+/* Find Tradesman Part of Css Starts Here */
+.find-tradesman{
+	float: left;
+	width: 100%;
+	height: 400pt;
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/Job3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: white;
+	opacity: 1;
+}
+.blur{
+	width: 50%;
+	height: 400pt;
+	background: white;
+	opacity: 1;
+	float: left;
+	position: relative;
+	left: 240pt;
+	}
+.find-tradesman h1{
+	text-align: center;
+	font-family: Arimo;
+	position: relative;
+}
+.find-tradesman h1:after{
+	content: '';
+	height: 4pt;
+	width: 150pt;
+	background:#11925C;
+	position: absolute;
+	top: 35px;
+	right: 240px;
+}
+.find-tradesman form{
+	float: left;
+	width:65%;
+	height:260pt;
+	text-align: justify;
+	background-color: #058751;
+	color: white;
+	position: relative;
+	left: 80pt;
+	top:30pt;
+	padding-left: 20pt;
+	padding-right: 20pt;
+	border-radius: 5pt;
+	box-shadow: 2px 2px 15px black;
+}
+.find-tradesman label{
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin-top: 10pt;
+}
+.find-tradesman select{
+	float: left;
+	height: 30pt;
+	width: 300pt;
+	margin-top: 5pt;
+	margin-bottom: 10pt;
+	border:none;
+
+}
+.find-tradesman input{
+	float: right;
+	height: 30pt;
+	width: 100pt;
+	background:green;
+	border: none;
+	color: white;
+	font-size: 17px;
+	border-radius: 100pt;
+	font-weight: 700;
+}
+.find-tradesman input:hover{
+	background: black;
+}
+
+/* Css
+
+
+/*Css for Start TRadesman webpage starts here */
+.start-image{
+	float: left;
+	width: 100%;
+	height: 400pt;
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/Job2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.start-image-inside{
+	width: 45%;
+	height: 100%;
+	float: left;
+	background: white;
+	opacity: .8;
+	text-align: center;
+	margin-left: 250pt;
+}
+
+.start-image-inside h1{
+	position: relative;
+	width: 60%;
+	left: 85pt;
+}
+.start-image-inside h1:after{
+	content: '';
+	height: 4pt;
+	width: 100pt;
+	background:#11925C;
+	position: absolute;
+	top: 75px;
+	right: 130px;
+}
+.start-image-inside .btn1{
+	margin-top: 40pt;
+	margin-left: 160pt;
+}
+.start-info{
+	text-align: center;
+	width: 65%;
+	height: auto;
+	float: left;
+	background: white;
+	margin-left: 150pt;
+	margin-top: 20pt;
+	margin-bottom: 20pt;
+	padding: 20pt;
+	border-radius: 5pt;
+}
+.start-info-inside{
+	height: 300pt;
+	width: 60%;
+	box-shadow: 1px 1px 5px gray;
+}
+.start-info-inside img{
+	width: 100%;
+	height: 200pt;
+
+}
+.start-info h3{
+	width: 60%;
+	opacity: .9;
+	font-family: Oswald;
+}
+.start-leads{
+	width: 69%;
+	padding-top: 20pt;
+	padding-bottom: 20pt;
+	padding-left: 313pt;
+	float: left;
+	background: white;
+}
+.start-leads h2{
+	float: left;
+}
+.start-leads .btn2{
+	float: left;
+	height: 50px;
+	width: 150px;
+	color:white;
+	font-size: 18px;
+	background:green;
+	border:none;
+	border-radius: 100px;
+	position: relative;
+	top: 5pt;
+	left: 20pt;
+}
+.start-leads .btn2 a{
+	color: white;
+}
+.start-leads .btn2:hover{
+	background: black;
+}

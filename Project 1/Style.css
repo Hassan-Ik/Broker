@@ -1,0 +1,217 @@
+body{
+	margin:auto;
+}
+.container
+{
+	background-color: #fdfdfd;
+	margin: 0;
+}
+/* Header part of Site  Starts here */ 
+header{
+		width: 100%;
+		height: auto;
+		float: left;
+		position: fixed;
+		z-index: 5;
+		box-shadow: 3px 3px 10px black;
+	}
+/* Above Header PArt Starts here
+ */
+	.us{
+		width: 100%;
+		height: 30px;
+		padding-top: 10px;
+		text-align: center;
+		display: block;
+		background: #211C23;
+
+}
+
+.us strong{
+	color: white;
+}
+.us a{	
+	font-size:16px;
+	color: #FFD05C;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-right: .5em;
+	}
+	.us a:hover{
+		opacity: .8;
+	}
+/* Ends here */
+/* Header and Nav Bar Starts here */
+
+.header-ln{
+	width: 100%;
+	height: auto;
+    background: #FFD05C;
+    float: left;
+    outline: 2px solid #755a15;
+}
+.logo{
+	float: left;
+	height: 80px;
+	margin-left: 170px;
+}
+.header-logo{
+	background: inherit;
+	height: 76px;
+	border-radius: 50%;
+	z-index: -30;
+	float: left;
+}
+.logo .title{
+	top: 57px;
+	left: -68px;
+	float: left;
+	color: white;
+	text-decoration: none;
+	position: relative;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	text-shadow: 1px 1px 5px black;
+}
+/* Nav Bar Css Of Starts Here */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333333;
+  overflow: hidden;
+  float: left;
+  margin-top: 14px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  	background-color: red;
+ 	 color: black;
+ 	height: 30px;
+ 	
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	border:2px solid #FFD05C;
+  color: white;
+}
+/* Nav Section of Header Ends here */
+/* Header part of Website Ends here */
+
+/* Section Part of Website Starts Here */
+.section{
+	margin-top: 105px;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.article{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.article .imag1{
+	float: left;
+	height: 600px;
+	width: 100%;
+	z-index: -10;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(Images/Back/W3.jpg);
+}
+	/*
+	animation-name: images;
+	animation-duration: 60s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+	animation-iteration-count: 10;
+}
+/*
+	@keyframes images{
+		0%{
+			background-image: url('Images/back/W1.jpg');
+		}
+		25%{
+			background-image: url('Images/Back/W4.jpg');
+		}
+		50%{
+			background-image: url('Images/Back/W3.jpg');
+		}
+		100%{
+			background-image: url('Images/Back/W2.jpg');
+		}
+	}
+	*/
+.article .image-inside{
+	background-image: url(Images/Back/White2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 18px;
+	position: absolute;
+	opacity: .9;
+	width: 50%;
+	height: 585px;
+	float: left;
+	background-color: white;
+}
+.article .image-inside h1{
+	text-align: center;
+	font-size:48px; 
+	margin-left:90px;
+	font-family: 'Oswald', sans-serif;
+}
+.article .image-inside h1:after{
+	content: '';
+	display: block;
+	width: 100px;
+	background-color: red;
+	height: 7px;
+	position: relative;
+	left: 50px;
+	}
+.article .image-inside p{
+	text-align: center;
+	font-size:20px; 
+	font-family: 'Oswald', sans-serif;
+}
+.article .image-inside .btn{
+	float: left;
+	width: 150px;
+	height: 50px;
+	border-radius: 100px;
+	margin-left: 220px;
+	margin-top: 20px;
+	background-color: red;
+}
+.article .image-inside .btn a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+	margin-top: 16px;
+	margin-left: 29px;
+}
+.article .image-inside .btn:hover{
+	background-color:#FFD05C;
+	opacity: 1;
+	color: black;
+	content: "Post a Job today";
+}
+
+/* Css of the image inside ends here */
+/*CSS of Review and trust starts here */
+
